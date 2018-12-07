@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg"
+        android:layout_height="match_parent"
+        tools:context=".index" tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/logo"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="30dp" android:layout_marginBottom="113dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_homepage" android:layout_marginTop="182dp"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/bklogo"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/base"
+            android:text="Beranda"
+            android:textColor="#009999"
+            android:textSize="23dp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_homepage"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.562" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="57dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="57dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/base"
+            android:text="Tentang Kami"
+            android:textColor="#009999"
+            android:textSize="23dp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_bkdinfo"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.67" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="57dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="57dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/base"
+            android:text="Masuk"
+            android:textColor="#009999"
+            android:textSize="23dp"
+            android:textAllCaps="false"
+            android:id="@+id/btnLogin"
+            app:layout_constraintStart_toStartOf="@+id/btn_homepage"
+            app:layout_constraintEnd_toEndOf="@+id/btn_homepage" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.78"/>
+    <TextView
+            android:text="Belum Memiliki Akun?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/btnLogin" app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintVertical_bias="0.85"/>
+    <TextView
+            android:text="@string/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etRegis"
+            app:layout_constraintStart_toStartOf="@+id/textView" app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintVertical_bias="0.9"
+    />
+
+</android.support.constraint.ConstraintLayout>

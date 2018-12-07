@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.hp.wv_bkdana">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="BKDana"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".index">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".homepage">
+        </activity>
+        <activity android:name=".login">
+        </activity>
+        <activity android:name=".RegisterActivity.register">
+        </activity>
+        <activity android:name=".RegisterActivity.register_pendana">
+        </activity>
+        <activity android:name=".RegisterActivity.register_peminjam_kilat">
+        </activity>
+        <activity android:name=".RegisterActivity.registerselect">
+        </activity>
+        <activity android:name=".RegisterActivity.regis_peminjam_mikro">
+        </activity>
+        <activity android:name=".tentangkami">
+        </activity>
+    </application>
+
+</manifest>

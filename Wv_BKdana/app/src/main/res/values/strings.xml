@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wv_BKdana</string>
+    <string name="register">Daftar <u>disini!</u>.
+    </string>
+    <string name="kilat">Kilat Butuh dana Kilat 1 - 2 juta? Seperti biaya Rumah Sakit, Sekolah, Kontrakan, dll. Proses
+        persetujuan hanya 15 menit!
+    </string>
+    <string name="mikro">Pinjaman Mikro (Usaha Kecil) untuk solusi Bisnis anda. Platform maksimal sampai dengan 50
+        juta!
+    </string>
+    <string name="pendana">"Daftar Pendana"</string>
+    <string name="peminjam">"Daftar Peminjam"</string>
+</resources>
